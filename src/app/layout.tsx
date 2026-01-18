@@ -15,7 +15,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Casal Labs",
-  description: "Casal Labs is a technology-driven company designing scalable AI automation today, while building toward quantum-AI systems for the future.",
+  description:
+    "Casal Labs is a technology-driven company designing scalable AI automation today, while building toward quantum-AI systems for the future.",
 };
 
 export default function RootLayout({
@@ -29,13 +30,13 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <ThemeProvider
-            attribute="class"
-            defaultTheme="system"
-            enableSystem
-            disableTransitionOnChange
-          >
-            {children}
-          </ThemeProvider>
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );

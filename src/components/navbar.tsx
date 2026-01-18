@@ -1,47 +1,65 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import { Button } from "@/components/ui/button"
-import { Menu, X, SunMoonIcon } from "lucide-react"
-import { useTheme } from "next-themes"
-import { Avatar } from "@/components/ui/avatar"
-import { AvatarImage } from "@/components/ui/avatar"
-import { AvatarFallback } from "@/components/ui/avatar"
+import { useState } from "react";
+import { Button } from "@/components/ui/button";
+import { Menu, X, SunMoonIcon } from "lucide-react";
+import { useTheme } from "next-themes";
+import { Avatar } from "@/components/ui/avatar";
+import { AvatarImage } from "@/components/ui/avatar";
+import { AvatarFallback } from "@/components/ui/avatar";
 
 export function Navbar() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-  const { theme, setTheme } = useTheme()
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const { theme, setTheme } = useTheme();
 
   return (
     <nav className="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-full md:w-auto px-4">
       <div className="bg-background/80 backdrop-blur-md border border-border rounded-full shadow-lg px-6 py-4 flex items-center justify-between gap-6 whitespace-nowrap">
-      <Avatar>
-        <AvatarImage src="/logo.png" alt="Casal Labs" />
-        <AvatarFallback>CL</AvatarFallback>
-      </Avatar>
+        <Avatar>
+          <AvatarImage src="/logo.png" alt="Casal Labs" />
+          <AvatarFallback>CL</AvatarFallback>
+        </Avatar>
 
         <div className="hidden md:flex items-center gap-4 whitespace-nowrap">
-          <a href="#services" className="text-sm text-muted-foreground hover:text-foreground transition-colors whitespace-nowrap">
+          <a
+            href="#services"
+            className="text-sm text-muted-foreground hover:text-foreground transition-colors whitespace-nowrap"
+          >
             Services
           </a>
-          <a href="#offer" className="text-sm text-muted-foreground hover:text-foreground transition-colors whitespace-nowrap">
+          <a
+            href="#offer"
+            className="text-sm text-muted-foreground hover:text-foreground transition-colors whitespace-nowrap"
+          >
             Offer
           </a>
-          <a href="#future" className="text-sm text-muted-foreground hover:text-foreground transition-colors whitespace-nowrap">
+          <a
+            href="#future"
+            className="text-sm text-muted-foreground hover:text-foreground transition-colors whitespace-nowrap"
+          >
             Future
           </a>
-          <a href="#approach" className="text-sm text-muted-foreground hover:text-foreground transition-colors whitespace-nowrap">
+          <a
+            href="#approach"
+            className="text-sm text-muted-foreground hover:text-foreground transition-colors whitespace-nowrap"
+          >
             Approach
           </a>
-          <a href="#philosophy" className="text-sm text-muted-foreground hover:text-foreground transition-colors whitespace-nowrap">
+          <a
+            href="#philosophy"
+            className="text-sm text-muted-foreground hover:text-foreground transition-colors whitespace-nowrap"
+          >
             Philosophy
           </a>
-          <a href="#clients" className="text-sm text-muted-foreground hover:text-foreground transition-colors whitespace-nowrap">
+          <a
+            href="#clients"
+            className="text-sm text-muted-foreground hover:text-foreground transition-colors whitespace-nowrap"
+          >
             Clients
           </a>
-          <Button 
-            variant="outline" 
-            size="icon" 
+          <Button
+            variant="outline"
+            size="icon"
             onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
             className="rounded-full"
           >
@@ -50,9 +68,9 @@ export function Navbar() {
         </div>
 
         <div className="flex items-center gap-2 md:hidden">
-          <Button 
-            variant="outline" 
-            size="icon" 
+          <Button
+            variant="outline"
+            size="icon"
             onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
             className="rounded-full"
           >
@@ -63,7 +81,11 @@ export function Navbar() {
             className="p-2 hover:bg-card rounded-full transition"
             aria-label="Toggle menu"
           >
-            {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+            {mobileMenuOpen ? (
+              <X className="w-5 h-5" />
+            ) : (
+              <Menu className="w-5 h-5" />
+            )}
           </button>
         </div>
       </div>
@@ -115,5 +137,5 @@ export function Navbar() {
         </div>
       )}
     </nav>
-  )
+  );
 }
