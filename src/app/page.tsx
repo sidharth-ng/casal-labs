@@ -1,18 +1,18 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
 import {
   ArrowRight,
-  Workflow,
-  Network,
-  Layers,
-  Brain,
-  Route,
   ArrowRightLeft,
-  Zap,
+  Brain,
+  Layers,
+  Network,
+  Route,
   TrendingUp,
+  Workflow,
+  Zap,
 } from "lucide-react";
 import { Navbar } from "@/components/navbar";
+import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (

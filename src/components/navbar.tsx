@@ -1,12 +1,10 @@
 "use client";
 
-import { useState } from "react";
-import { Button } from "@/components/ui/button";
-import { Menu, X, SunMoonIcon } from "lucide-react";
+import { Menu, SunMoonIcon, X } from "lucide-react";
 import { useTheme } from "next-themes";
-import { Avatar } from "@/components/ui/avatar";
-import { AvatarImage } from "@/components/ui/avatar";
-import { AvatarFallback } from "@/components/ui/avatar";
+import { useState } from "react";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Button } from "@/components/ui/button";
 
 export function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -77,6 +75,7 @@ export function Navbar() {
             <SunMoonIcon className="w-4 h-4" />
           </Button>
           <button
+            type="button"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             className="p-2 hover:bg-card rounded-full transition"
             aria-label="Toggle menu"
