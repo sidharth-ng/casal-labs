@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Casal Labs",
   description:
-    "Casal Labs is a technology-driven company designing scalable AI automation today, while building toward quantum-AI systems for the future.",
+    "Casal Labs is a technology driven company designing scalable AI automation today, while building toward quantum AI systems for the future.",
 };
 
 export default function RootLayout({

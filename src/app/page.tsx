@@ -45,7 +45,7 @@ export default function Home() {
               Building the next layer of intelligent systems.
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground text-balance leading-relaxed max-w-2xl mx-auto">
-              Scalable AI automation today. Quantum-AI systems for tomorrow.
+              Scalable AI automation today. Quantum AI systems for tomorrow.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
@@ -76,7 +76,7 @@ export default function Home() {
                   What we do
                 </p>
                 <h2 className="text-4xl md:text-5xl font-bold text-balance">
-                  AI-powered workflows that automate core business operations.
+                  AI powered workflows that automate core business operations.
                 </h2>
               </div>
               <div className="space-y-4">
@@ -166,13 +166,13 @@ export default function Home() {
               What we offer today
             </p>
             <h2 className="text-4xl md:text-5xl font-bold text-balance">
-              Production-ready AI workflows for businesses that want leverage.
+              Production ready AI workflows for businesses that want leverage.
             </h2>
           </div>
 
           <div className="bg-card border border-border rounded-2xl p-8 md:p-12 space-y-8">
             <p className="text-lg text-muted-foreground leading-relaxed max-w-2xl">
-              We design and deploy production-ready AI workflows for businesses
+              We design and deploy production ready AI workflows for businesses
               that want leverage, not tools.
             </p>
 
@@ -222,14 +222,14 @@ export default function Home() {
               Where we're headed
             </p>
             <h2 className="text-4xl md:text-5xl font-bold text-balance">
-              Quantum-AI based system architectures.
+              Quantum AI based system architectures.
             </h2>
           </div>
 
           <div className="grid md:grid-cols-2 gap-12 items-start">
             <div className="space-y-6">
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Casal Labs is actively working on quantum-AI based system
+                Casal Labs is actively working on quantum AI based system
                 architectures.
               </p>
 
@@ -248,7 +248,7 @@ export default function Home() {
                   </li>
                   <li className="flex items-start gap-3 text-muted-foreground">
                     <span className="text-blue-800 font-bold">→</span>
-                    <span>High-complexity system optimization</span>
+                    <span>High complexity system optimization</span>
                   </li>
                   <li className="flex items-start gap-3 text-muted-foreground">
                     <span className="text-blue-800 font-bold">→</span>
@@ -265,7 +265,7 @@ export default function Home() {
                 </h3>
                 <p className="text-sm text-muted-foreground leading-relaxed">
                   These capabilities are not yet public. They are being
-                  developed as part of a long-term roadmap and will be revealed
+                  developed as part of a long term roadmap and will be revealed
                   over the next 2 to 3 years.
                 </p>
               </div>
@@ -350,7 +350,7 @@ export default function Home() {
                 <div className="w-2 h-2 bg-blue-800 rounded-full mt-2 shrink-0" />
                 <p className="text-sm text-muted-foreground leading-relaxed">
                   <span className="font-semibold text-foreground">
-                    Quantum-AI systems
+                    Quantum AI systems
                   </span>{" "}
                   are the direction.
                 </p>
