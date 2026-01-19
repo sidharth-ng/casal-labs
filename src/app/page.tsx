@@ -447,8 +447,8 @@ export default function Home() {
           </div>
 
           <p className="text-sm text-muted-foreground pt-8 border-t border-border">
-            Casal Labs is building applied automation today and high performance websites for tomorrow.
-          </p>
+            Casal labs is building applied automations and High performance websites today and quantum ai systems for tomorrow.
+            </p>
         </div>
       </section>
 
