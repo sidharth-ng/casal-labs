@@ -101,9 +101,9 @@ export default function Home() {
                 </div>
                 <div className="space-y-1">
                   <h3 className="text-foreground">
-                    <div className="font-bold">Process automation</div>
+                    <div className="font-bold">AI automation</div>
                     <div className="font-normal text-muted-foreground">
-                      Intelligent workflow design
+                      Automate repetitive work
                     </div>
                   </h3>
                 </div>
@@ -115,9 +115,9 @@ export default function Home() {
                 </div>
                 <div className="space-y-1">
                   <h3 className="text-foreground">
-                    <div className="font-bold">System integration</div>
+                    <div className="font-bold">CRM & Chatbots</div>
                     <div className="font-normal text-muted-foreground">
-                      Seamless data flow
+                      Turn conversations into leads
                     </div>
                   </h3>
                 </div>
@@ -131,7 +131,7 @@ export default function Home() {
                   <h3 className="text-foreground">
                     <div className="font-bold">Scalable architecture</div>
                     <div className="font-normal text-muted-foreground">
-                      Future-ready foundations
+                      Systems that scale smoothly
                     </div>
                   </h3>
                 </div>
@@ -143,9 +143,9 @@ export default function Home() {
                 </div>
                 <div className="space-y-1">
                   <h3 className="text-foreground">
-                    <div className="font-bold">AI integration</div>
+                    <div className="font-bold">High Performance Websites</div>
                     <div className="font-normal text-muted-foreground">
-                      Intelligent decision making
+                      Speed, security and conversions
                     </div>
                   </h3>
                 </div>
