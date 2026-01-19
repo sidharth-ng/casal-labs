@@ -184,21 +184,21 @@ export default function Home() {
                 <div className="bg-blue-800/10 border border-blue-800/20 rounded-xl p-4 flex items-center gap-3 hover:bg-blue-800/15 hover:border-blue-800/30 transition-colors">
                   <Route className="w-6 h-6 text-blue-800 shrink-0" />
                   <span className="text-sm font-medium text-foreground">
-                    Decision routing
+                    Workflow automation
                   </span>
                 </div>
 
                 <div className="bg-blue-800/10 border border-blue-800/20 rounded-xl p-4 flex items-center gap-3 hover:bg-blue-800/15 hover:border-blue-800/30 transition-colors">
                   <ArrowRightLeft className="w-6 h-6 text-blue-800 shrink-0" />
                   <span className="text-sm font-medium text-foreground">
-                    Data movement and transformation
+                    CRM & Chatbot setup
                   </span>
                 </div>
 
                 <div className="bg-blue-800/10 border border-blue-800/20 rounded-xl p-4 flex items-center gap-3 hover:bg-blue-800/15 hover:border-blue-800/30 transition-colors">
                   <Zap className="w-6 h-6 text-blue-800 shrink-0" />
                   <span className="text-sm font-medium text-foreground">
-                    Automated execution across systems
+                    High Performance Websites
                   </span>
                 </div>
 
