@@ -37,8 +37,8 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-6 relative z-10">
           <div className="space-y-8 max-w-3xl text-center mx-auto">
             <div className="inline-block">
-              <span className="text-sm font-semibold text-blue-800 uppercase tracking-widest px-4 py-2 bg-blue-800/10 rounded-full">
-                AI Automation & Quantum Systems
+              <span className="text-xs font-semibold text-blue-800 uppercase tracking-widest px-4 py-2 bg-blue-800/10 rounded-full">
+                Software systems & AI Workflows
               </span>
             </div>
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-balance leading-tight">
