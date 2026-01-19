@@ -261,12 +261,12 @@ export default function Home() {
             <div className="bg-blue-800/10 border border-blue-800/30 rounded-2xl p-8 space-y-6 mt-2">
               <div className="space-y-3">
                 <h3 className="font-semibold text-lg text-foreground">
-                  Coming in 1.5-2 Years
+                  Coming in 2-3 Years
                 </h3>
                 <p className="text-sm text-muted-foreground leading-relaxed">
                   These capabilities are not yet public. They are being
                   developed as part of a long-term roadmap and will be revealed
-                  over the next 1.5 to 2 years.
+                  over the next 2 to 3 years.
                 </p>
               </div>
 
