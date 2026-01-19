@@ -482,6 +482,11 @@ export default function Home() {
               </a>
             </div>
           </div>
+          <div className="mt-8 pt-8 border-t border-border text-center">
+            <p className="text-sm text-muted-foreground">
+              © {new Date().getFullYear()} Casal Labs. All rights reserved.
+            </p>
+          </div>
         </div>
       </footer>
     </main>
