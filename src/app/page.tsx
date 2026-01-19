@@ -26,7 +26,7 @@ export default function Home() {
           <div className="absolute top-1/4 -right-32 w-96 h-96 bg-linear-to-br from-blue-800 via-blue-800/30 to-transparent rounded-full blur-3xl opacity-40 glow-orb" />
           <div
             className="absolute bottom-0 left-20 w-96 h-96 bg-linear-to-tr from-blue-800/25 to-blue-800/10 rounded-full blur-3xl opacity-70 glow-orb"
-            style={{ animationDelay: "2s" }}
+            style={{ animationDelay: "4s" }}
           />
           <div
             className="absolute bottom-0 right-96 w-72 h-72 bg-linear-to-tl from-blue-800/25 to-transparent rounded-full blur-3xl opacity-30 glow-orb"
