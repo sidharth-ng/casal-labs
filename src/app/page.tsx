@@ -72,7 +72,7 @@ export default function Home() {
           <div className="space-y-10 md:space-y-12">
             <div className="space-y-8">
               <div className="space-y-4">
-                <p className="text-sm font-semibold text-blue-800 uppercase tracking-wide">
+                <p className="text-base font-semibold text-blue-800 uppercase tracking-wide">
                   Services we provide
                 </p>
                 <h2 className="text-4xl md:text-5xl font-bold text-balance">
@@ -148,7 +148,7 @@ export default function Home() {
       >
         <div className="mx-auto max-w-7xl px-6 space-y-12">
           <div className="max-w-3xl space-y-4">
-            <p className="text-sm font-semibold text-blue-800 uppercase tracking-wide">
+            <p className="text-base font-semibold text-blue-800 uppercase tracking-wide">
               What we offer today
             </p>
             <h2 className="text-4xl md:text-5xl font-bold text-balance">
@@ -204,7 +204,7 @@ export default function Home() {
       <section id="future" className="border-t border-border py-20 md:py-32">
         <div className="mx-auto max-w-7xl px-6 space-y-12">
           <div className="max-w-3xl space-y-4">
-            <p className="text-sm font-semibold text-blue-800 uppercase tracking-wide">
+            <p className="text-base font-semibold text-blue-800 uppercase tracking-wide">
               Where we're headed
             </p>
             <h2 className="text-4xl md:text-5xl font-bold text-balance">
@@ -277,7 +277,7 @@ export default function Home() {
       >
         <div className="mx-auto max-w-7xl px-6 space-y-12">
           <div className="max-w-3xl space-y-4">
-            <p className="text-sm font-semibold text-blue-800 uppercase tracking-wide">
+            <p className="text-base font-semibold text-blue-800 uppercase tracking-wide">
               Why this approach
             </p>
             <h2 className="text-4xl md:text-5xl font-bold text-balance">
@@ -307,7 +307,7 @@ export default function Home() {
       >
         <div className="mx-auto max-w-7xl px-6 space-y-12">
           <div className="max-w-3xl space-y-4">
-            <p className="text-sm font-semibold text-blue-800 uppercase tracking-wide">
+            <p className="text-base font-semibold text-blue-800 uppercase tracking-wide">
               Our philosophy
             </p>
             <h2 className="text-4xl md:text-5xl font-bold text-balance">
@@ -353,7 +353,7 @@ export default function Home() {
       >
         <div className="mx-auto max-w-7xl px-6 space-y-12">
           <div className="max-w-3xl space-y-4">
-            <p className="text-sm font-semibold text-blue-800 uppercase tracking-wide">
+            <p className="text-base font-semibold text-blue-800 uppercase tracking-wide">
               Who we work with
             </p>
             <h2 className="text-4xl md:text-5xl font-bold text-balance">
@@ -404,7 +404,7 @@ export default function Home() {
 
         <div className="mx-auto max-w-7xl px-6 text-center space-y-8 relative z-10">
           <div className="space-y-4 max-w-3xl mx-auto">
-            <p className="text-sm font-semibold text-blue-800 uppercase tracking-wide">
+            <p className="text-base font-semibold text-blue-800 uppercase tracking-wide">
               Start with the foundation
             </p>
             <h2 className="text-4xl md:text-5xl font-bold text-balance">
