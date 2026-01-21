@@ -45,7 +45,7 @@ export default function Home() {
               Building the next layer of intelligent systems.
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground text-balance leading-relaxed max-w-2xl mx-auto">
-              Scalable AI automation today. Quantum AI systems for tomorrow.
+              Scalable AI automation, CRM & Chatbots, and High Performance Websites for today. Quantum AI systems for tomorrow.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
