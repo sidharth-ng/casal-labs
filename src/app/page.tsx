@@ -67,7 +67,7 @@ export default function Home() {
       </section>
 
       {/* What We Do Section */}
-      <section id="services" className="border-t border-border py-20 md:py-32">
+      <section id="services" className="py-20 md:py-32">
         <div className="mx-auto max-w-7xl px-6">
           <div className="space-y-10 md:space-y-12">
             <div className="space-y-8">
@@ -142,10 +142,7 @@ export default function Home() {
       </section>
 
       {/* Current Offering Section */}
-      <section
-        id="offer"
-        className="border-t border-border py-20 md:py-32 bg-card/30"
-      >
+      <section id="offer" className="py-20 md:py-32 bg-card/30">
         <div className="mx-auto max-w-7xl px-6 space-y-12">
           <div className="max-w-3xl space-y-4">
             <p className="text-base font-semibold text-blue-800 uppercase tracking-wide">
@@ -201,7 +198,7 @@ export default function Home() {
       </section>
 
       {/* Future Vision Section */}
-      <section id="future" className="border-t border-border py-20 md:py-32">
+      <section id="future" className="py-20 md:py-32">
         <div className="mx-auto max-w-7xl px-6 space-y-12">
           <div className="max-w-3xl space-y-4">
             <p className="text-base font-semibold text-blue-800 uppercase tracking-wide">
@@ -271,10 +268,7 @@ export default function Home() {
       </section>
 
       {/* Why This Matters */}
-      <section
-        id="approach"
-        className="border-t border-border py-20 md:py-32 bg-card/30"
-      >
+      <section id="approach" className="py-20 md:py-32 bg-card/30">
         <div className="mx-auto max-w-7xl px-6 space-y-12">
           <div className="max-w-3xl space-y-4">
             <p className="text-base font-semibold text-blue-800 uppercase tracking-wide">
@@ -301,10 +295,7 @@ export default function Home() {
       </section>
 
       {/* Philosophy Section */}
-      <section
-        id="philosophy"
-        className="border-t border-border py-20 md:py-32"
-      >
+      <section id="philosophy" className="py-20 md:py-32">
         <div className="mx-auto max-w-7xl px-6 space-y-12">
           <div className="max-w-3xl space-y-4">
             <p className="text-base font-semibold text-blue-800 uppercase tracking-wide">
@@ -347,10 +338,7 @@ export default function Home() {
       </section>
 
       {/* Who We Work With */}
-      <section
-        id="clients"
-        className="border-t border-border py-20 md:py-32 bg-card/30"
-      >
+      <section id="clients" className="py-20 md:py-32 bg-card/30">
         <div className="mx-auto max-w-7xl px-6 space-y-12">
           <div className="max-w-3xl space-y-4">
             <p className="text-base font-semibold text-blue-800 uppercase tracking-wide">
@@ -397,7 +385,7 @@ export default function Home() {
       {/* Final CTA Section */}
       <section
         id="contact"
-        className="border-t border-border py-20 md:py-32 relative overflow-hidden"
+        className="py-20 md:py-32 relative overflow-hidden"
       >
         <div className="absolute inset-0 bg-linear-to-b from-blue-800/10 to-transparent pointer-events-none" />
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-linear-to-br from-blue-800/15 to-transparent rounded-full blur-3xl pointer-events-none" />
@@ -439,7 +427,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="border-t border-border bg-card/50 py-12">
+      <footer className="bg-card/50 py-12">
         <div className="mx-auto max-w-7xl px-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-8">
             <div className="text-2xl font-bold text-blue-800">Casal Labs</div>
