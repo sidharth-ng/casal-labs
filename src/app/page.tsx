@@ -69,11 +69,11 @@ export default function Home() {
       {/* What We Do Section */}
       <section id="services" className="border-t border-border py-20 md:py-32">
         <div className="mx-auto max-w-7xl px-6">
-          <div className="grid lg:grid-cols-2 gap-12 items-start">
+          <div className="space-y-10 md:space-y-12">
             <div className="space-y-8">
               <div className="space-y-4">
                 <p className="text-sm font-semibold text-blue-800 uppercase tracking-wide">
-                  What we do
+                  Services we provide
                 </p>
                 <h2 className="text-4xl md:text-5xl font-bold text-balance">
                   AI powered workflows that automate core business operations.
@@ -94,7 +94,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="bg-card border border-border rounded-2xl p-6 space-y-3">
                 <div className="w-12 h-12 bg-blue-800/10 rounded-lg flex items-center justify-center">
                   <Workflow className="w-6 h-6 text-blue-800" />
@@ -118,20 +118,6 @@ export default function Home() {
                     <div className="font-bold">CRM & Chatbots</div>
                     <div className="font-normal text-muted-foreground">
                       Turn conversations into leads
-                    </div>
-                  </h3>
-                </div>
-              </div>
-
-              <div className="bg-card border border-border rounded-2xl p-6 space-y-3">
-                <div className="w-12 h-12 bg-blue-800/10 rounded-lg flex items-center justify-center">
-                  <Layers className="w-6 h-6 text-blue-800" />
-                </div>
-                <div className="space-y-1">
-                  <h3 className="text-foreground">
-                    <div className="font-bold">Scalable architecture</div>
-                    <div className="font-normal text-muted-foreground">
-                      Systems that scale smoothly
                     </div>
                   </h3>
                 </div>
