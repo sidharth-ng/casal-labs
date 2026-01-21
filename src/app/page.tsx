@@ -95,46 +95,91 @@ export default function Home() {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <div className="bg-card border border-border rounded-2xl p-6 space-y-3">
-                <div className="w-12 h-12 bg-blue-800/10 rounded-lg flex items-center justify-center">
-                  <Workflow className="w-6 h-6 text-blue-800" />
+              <div className="bg-card border border-border rounded-2xl p-6 flex flex-col">
+                <div className="space-y-3 mb-4">
+                  <div className="w-12 h-12 bg-blue-800/10 rounded-lg flex items-center justify-center">
+                    <Workflow className="w-6 h-6 text-blue-800" />
+                  </div>
+                  <div className="space-y-1">
+                    <h3 className="text-foreground">
+                      <div className="font-bold">AI automation</div>
+                      <div className="font-normal text-muted-foreground">
+                        Automate repetitive work
+                      </div>
+                    </h3>
+                  </div>
                 </div>
-                <div className="space-y-1">
-                  <h3 className="text-foreground">
-                    <div className="font-bold">AI automation</div>
-                    <div className="font-normal text-muted-foreground">
-                      Automate repetitive work
-                    </div>
-                  </h3>
-                </div>
+                <Button
+                  size="sm"
+                  className="gap-2 bg-blue-800 text-white hover:bg-blue-800/90 w-full mt-auto"
+                  asChild
+                >
+                  <a
+                    href="https://wa.me/7337074117"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Explore pricing <ArrowRight className="w-4 h-4" />
+                  </a>
+                </Button>
               </div>
 
-              <div className="bg-card border border-border rounded-2xl p-6 space-y-3">
-                <div className="w-12 h-12 bg-blue-800/10 rounded-lg flex items-center justify-center">
-                  <Network className="w-6 h-6 text-blue-800" />
+              <div className="bg-card border border-border rounded-2xl p-6 flex flex-col">
+                <div className="space-y-3 mb-4">
+                  <div className="w-12 h-12 bg-blue-800/10 rounded-lg flex items-center justify-center">
+                    <Network className="w-6 h-6 text-blue-800" />
+                  </div>
+                  <div className="space-y-1">
+                    <h3 className="text-foreground">
+                      <div className="font-bold">CRM & Chatbots</div>
+                      <div className="font-normal text-muted-foreground">
+                        Turn conversations into leads
+                      </div>
+                    </h3>
+                  </div>
                 </div>
-                <div className="space-y-1">
-                  <h3 className="text-foreground">
-                    <div className="font-bold">CRM & Chatbots</div>
-                    <div className="font-normal text-muted-foreground">
-                      Turn conversations into leads
-                    </div>
-                  </h3>
-                </div>
+                <Button
+                  size="sm"
+                  className="gap-2 bg-blue-800 text-white hover:bg-blue-800/90 w-full mt-auto"
+                  asChild
+                >
+                  <a
+                    href="https://wa.me/7337074117"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Explore pricing <ArrowRight className="w-4 h-4" />
+                  </a>
+                </Button>
               </div>
 
-              <div className="bg-card border border-border rounded-2xl p-6 space-y-3">
-                <div className="w-12 h-12 bg-blue-800/10 rounded-lg flex items-center justify-center">
-                  <Brain className="w-6 h-6 text-blue-800" />
+              <div className="bg-card border border-border rounded-2xl p-6 flex flex-col">
+                <div className="space-y-3 mb-4">
+                  <div className="w-12 h-12 bg-blue-800/10 rounded-lg flex items-center justify-center">
+                    <Brain className="w-6 h-6 text-blue-800" />
+                  </div>
+                  <div className="space-y-1">
+                    <h3 className="text-foreground">
+                      <div className="font-bold">High Performance Websites</div>
+                      <div className="font-normal text-muted-foreground">
+                        Speed, security and conversions
+                      </div>
+                    </h3>
+                  </div>
                 </div>
-                <div className="space-y-1">
-                  <h3 className="text-foreground">
-                    <div className="font-bold">High Performance Websites</div>
-                    <div className="font-normal text-muted-foreground">
-                      Speed, security and conversions
-                    </div>
-                  </h3>
-                </div>
+                <Button
+                  size="sm"
+                  className="gap-2 bg-blue-800 text-white hover:bg-blue-800/90 w-full mt-auto"
+                  asChild
+                >
+                  <a
+                    href="https://wa.me/7337074117"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Explore pricing <ArrowRight className="w-4 h-4" />
+                  </a>
+                </Button>
               </div>
             </div>
           </div>
