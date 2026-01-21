@@ -47,7 +47,7 @@
 }
 
 :root {
-  --radius: 0.625rem;
+  --radius: 0.75rem;
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
   --card: oklch(1 0 0);
@@ -122,5 +122,17 @@
 
   body {
     @apply bg-background text-foreground;
+  }
+
+  /* Make all shadcn CTA Buttons fully rounded (pills) with glow effect.
+     Exclude outline icon buttons (e.g. dark mode toggle) via data-variant + data-size. */
+  [data-slot="button"]:not([data-variant="outline"][data-size="icon"]) {
+    border-radius: 9999px !important;
+    box-shadow: 0 0 20px rgba(30, 64, 175, 1), 0 0 40px rgba(30, 64, 175, 0.8), 0 0 60px rgba(30, 64, 175, 0.6), 0 0 100px rgba(30, 64, 175, 0.4) !important;
+    transition: box-shadow 0.3s ease !important;
+  }
+
+  [data-slot="button"]:not([data-variant="outline"][data-size="icon"]):hover {
+    box-shadow: 0 0 30px rgba(30, 64, 175, 1), 0 0 60px rgba(30, 64, 175, 1), 0 0 90px rgba(30, 64, 175, 0.8), 0 0 140px rgba(30, 64, 175, 0.6) !important;
   }
 }
