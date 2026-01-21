@@ -16,7 +16,7 @@ import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-background">
+    <main className="min-h-screen bg-background overflow-x-hidden">
       {/* Floating Navigation */}
       <Navbar />
 
@@ -45,7 +45,8 @@ export default function Home() {
               Building the next layer of intelligent systems.
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground text-balance leading-relaxed max-w-2xl mx-auto">
-              Scalable AI automation, CRM & Chatbots, and High Performance Websites for today. Quantum AI systems for tomorrow.
+              Scalable AI automation, CRM & Chatbots, and High Performance
+              Websites for today. Quantum AI systems for tomorrow.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
@@ -428,10 +429,7 @@ export default function Home() {
       </section>
 
       {/* Final CTA Section */}
-      <section
-        id="contact"
-        className="py-20 md:py-32 relative overflow-hidden"
-      >
+      <section id="contact" className="py-20 md:py-32 relative overflow-hidden">
         <div className="absolute inset-0 bg-linear-to-b from-blue-800/10 to-transparent pointer-events-none" />
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-linear-to-br from-blue-800/15 to-transparent rounded-full blur-3xl pointer-events-none" />
 
@@ -466,36 +464,54 @@ export default function Home() {
           </div>
 
           <p className="text-sm text-muted-foreground pt-8 border-t border-border">
-            Casal labs is building applied automations and High performance websites today and quantum ai systems for tomorrow.
-            </p>
+            Casal labs is building applied automations and High performance
+            websites today and quantum ai systems for tomorrow.
+          </p>
         </div>
       </section>
 
       {/* Footer */}
       <footer className="bg-card/50 py-12">
         <div className="mx-auto max-w-7xl px-6">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-8">
-            <div className="text-2xl font-bold text-blue-800">Casal Labs</div>
-            <div className="flex gap-8 text-sm text-muted-foreground">
-              <a href="#services" className="hover:text-foreground transition">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-6 md:gap-8">
+            <div className="text-2xl font-bold text-blue-800 text-center md:text-left">
+              Casal Labs
+            </div>
+            <div className="flex flex-wrap justify-center gap-4 md:gap-8 text-sm text-muted-foreground">
+              <a
+                href="#services"
+                className="hover:text-foreground transition whitespace-nowrap"
+              >
                 Services
               </a>
-              <a href="#offer" className="hover:text-foreground transition">
+              <a
+                href="#offer"
+                className="hover:text-foreground transition whitespace-nowrap"
+              >
                 Offer
               </a>
-              <a href="#future" className="hover:text-foreground transition">
+              <a
+                href="#future"
+                className="hover:text-foreground transition whitespace-nowrap"
+              >
                 Future
               </a>
-              <a href="#approach" className="hover:text-foreground transition">
+              <a
+                href="#approach"
+                className="hover:text-foreground transition whitespace-nowrap"
+              >
                 Approach
               </a>
               <a
                 href="#philosophy"
-                className="hover:text-foreground transition"
+                className="hover:text-foreground transition whitespace-nowrap"
               >
                 Philosophy
               </a>
-              <a href="#clients" className="hover:text-foreground transition">
+              <a
+                href="#clients"
+                className="hover:text-foreground transition whitespace-nowrap"
+              >
                 Clients
               </a>
             </div>

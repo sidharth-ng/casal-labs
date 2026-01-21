@@ -11,8 +11,8 @@ export function Navbar() {
   const { theme, setTheme } = useTheme();
 
   return (
-    <nav className="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-full md:w-auto px-4">
-      <div className="bg-background/80 backdrop-blur-md border border-border rounded-full shadow-lg px-6 py-4 flex items-center justify-between gap-6 whitespace-nowrap">
+    <nav className="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-full max-w-[calc(100%-2rem)] md:w-auto px-4">
+      <div className="bg-background/80 backdrop-blur-md border border-border rounded-full shadow-lg px-4 md:px-6 py-4 flex items-center justify-between gap-4 md:gap-6">
         <Avatar>
           <AvatarImage src="/logo.png" alt="Casal Labs" />
           <AvatarFallback>CL</AvatarFallback>
@@ -90,7 +90,7 @@ export function Navbar() {
       </div>
 
       {mobileMenuOpen && (
-        <div className="md:hidden mt-2 bg-background/95 backdrop-blur-md border border-border rounded-2xl shadow-lg p-4 space-y-3">
+        <div className="md:hidden mt-2 bg-background/95 backdrop-blur-md border border-border rounded-2xl shadow-lg p-4 space-y-3 w-full">
           <a
             href="#services"
             className="block text-sm text-muted-foreground hover:text-foreground transition-colors py-2"
