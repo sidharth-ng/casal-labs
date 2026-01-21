@@ -48,10 +48,10 @@ export default function Home() {
               Scalable AI automation, CRM & Chatbots & High Performance
               Websites for today. Quantum AI systems for tomorrow.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Button
-                size="lg"
-                className="gap-2 bg-blue-800 text-white hover:bg-blue-800/90"
+                size="default"
+                className="gap-2 bg-blue-800 text-white hover:bg-blue-800/90 w-fit"
                 asChild
               >
                 <a
@@ -59,7 +59,7 @@ export default function Home() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Work with us
+                  Build your systems with casal <ArrowRight className="w-4 h-4" />
                 </a>
               </Button>
             </div>
