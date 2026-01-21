@@ -76,16 +76,16 @@ export default function Home() {
                 <p className="text-base font-semibold text-blue-800 uppercase tracking-wide">
                   Services we provide
                 </p>
-                <h2 className="text-4xl md:text-5xl font-bold text-balance">
+                <h2 className="text-2xl md:text-5xl font-bold text-balance">
                   AI powered workflows that automate core business operations.
                 </h2>
               </div>
               <div className="space-y-4">
-                <p className="text-lg text-muted-foreground leading-relaxed">
+                <p className="text-sm md:text-lg text-muted-foreground leading-relaxed">
                   These workflows replace manual processes, reduce operational
                   load, and create systems that run quietly in the background.
                 </p>
-                <p className="text-lg text-muted-foreground leading-relaxed">
+                <p className="text-sm md:text-lg text-muted-foreground leading-relaxed">
                   <span className="font-semibold text-foreground">
                     Today, we sell applied automation.
                   </span>
@@ -194,7 +194,7 @@ export default function Home() {
             <p className="text-base font-semibold text-blue-800 uppercase tracking-wide">
               What we offer today
             </p>
-            <h2 className="text-4xl md:text-5xl font-bold text-balance">
+            <h2 className="text-2xl md:text-5xl font-bold text-balance">
               Production ready AI workflows for businesses that want leverage.
             </h2>
           </div>
@@ -250,7 +250,7 @@ export default function Home() {
             <p className="text-base font-semibold text-blue-800 uppercase tracking-wide">
               Where we're headed
             </p>
-            <h2 className="text-4xl md:text-5xl font-bold text-balance">
+            <h2 className="text-2xl md:text-5xl font-bold text-balance">
               Quantum AI based system architectures.
             </h2>
           </div>
@@ -320,7 +320,7 @@ export default function Home() {
             <p className="text-base font-semibold text-blue-800 uppercase tracking-wide">
               Why this approach
             </p>
-            <h2 className="text-4xl md:text-5xl font-bold text-balance">
+            <h2 className="text-2xl md:text-5xl font-bold text-balance">
               Systems that compound over time.
             </h2>
           </div>
@@ -347,7 +347,7 @@ export default function Home() {
             <p className="text-base font-semibold text-blue-800 uppercase tracking-wide">
               Our philosophy
             </p>
-            <h2 className="text-4xl md:text-5xl font-bold text-balance">
+            <h2 className="text-2xl md:text-5xl font-bold text-balance">
               The future of software is fewer decisions.
             </h2>
           </div>
@@ -390,7 +390,7 @@ export default function Home() {
             <p className="text-base font-semibold text-blue-800 uppercase tracking-wide">
               Who we work with
             </p>
-            <h2 className="text-4xl md:text-5xl font-bold text-balance">
+            <h2 className="text-2xl md:text-5xl font-bold text-balance">
               We work with founders and teams who think long-term.
             </h2>
           </div>
@@ -438,7 +438,7 @@ export default function Home() {
             <p className="text-base font-semibold text-blue-800 uppercase tracking-wide">
               Start with the foundation
             </p>
-            <h2 className="text-4xl md:text-5xl font-bold text-balance">
+            <h2 className="text-2xl md:text-5xl font-bold text-balance">
               Work with Casal Labs today through our AI automation workflows.
             </h2>
             <p className="text-xl text-muted-foreground">
