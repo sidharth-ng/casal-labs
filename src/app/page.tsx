@@ -103,9 +103,9 @@ export default function Home() {
                   </div>
                   <div className="space-y-1">
                     <h3 className="text-foreground">
-                      <div className="font-bold">AI automation</div>
-                      <div className="font-normal text-muted-foreground">
-                        Automate repetitive work
+                      <div className="font-bold">AI Automation</div>
+                      <div className="font-normal text-muted-foreground text-sm leading-relaxed">
+                        We design and implement automated workflows that streamline operations, reduce manual work, and improve overall efficiency for businesses.
                       </div>
                     </h3>
                   </div>
@@ -133,8 +133,8 @@ export default function Home() {
                   <div className="space-y-1">
                     <h3 className="text-foreground">
                       <div className="font-bold">CRM & Chatbots</div>
-                      <div className="font-normal text-muted-foreground">
-                        Turn conversations into leads
+                      <div className="font-normal text-muted-foreground text-sm leading-relaxed">
+                        We build & integrate CRM systems & chatbots that manage leads, handle conversations, & support consistent customer engagement.
                       </div>
                     </h3>
                   </div>
@@ -162,8 +162,8 @@ export default function Home() {
                   <div className="space-y-1">
                     <h3 className="text-foreground">
                       <div className="font-bold">High Performance Websites</div>
-                      <div className="font-normal text-muted-foreground">
-                        Speed, security and conversions
+                      <div className="font-normal text-muted-foreground text-sm leading-relaxed">
+                        We develop fast, secure, and scalable websites focused on performance, reliability, and measurable business outcomes.
                       </div>
                     </h3>
                   </div>
