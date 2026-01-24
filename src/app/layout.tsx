@@ -42,7 +42,7 @@ export default function RootLayout({
         >
           {children}
         </ThemeProvider>
-        <script src="/chat.js" />
+        <script src="/chat.js" type="module" />
       </body>
     </html>
   );
