@@ -26,6 +26,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+            <link
+              precedence="default"
+              href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css"
+              rel="stylesheet"
+            />
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
@@ -37,6 +42,7 @@ export default function RootLayout({
         >
           {children}
         </ThemeProvider>
+        <script src="/chat.js" />
       </body>
     </html>
   );

@@ -45,8 +45,8 @@ export default function Home() {
               Building the next layer of intelligent systems.
             </h1>
             <p className="text-sm md:text-xl text-muted-foreground text-balance leading-relaxed max-w-2xl mx-auto">
-              Scalable AI automation, CRM & Chatbots & High Performance
-              Websites for today. Quantum AI systems for tomorrow.
+              Scalable AI automation, CRM & Chatbots & High Performance Websites
+              for today. Quantum AI systems for tomorrow.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Button
@@ -59,7 +59,8 @@ export default function Home() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Build your systems with casal <ArrowRight className="w-4 h-4" />
+                  Build your systems with casal{" "}
+                  <ArrowRight className="w-4 h-4" />
                 </a>
               </Button>
             </div>
@@ -105,7 +106,9 @@ export default function Home() {
                     <h3 className="text-foreground">
                       <div className="font-bold">AI Automation</div>
                       <div className="font-normal text-muted-foreground text-sm leading-relaxed">
-                        We design and implement automated workflows that streamline operations, reduce manual work, and improve overall efficiency for businesses.
+                        We design and implement automated workflows that
+                        streamline operations, reduce manual work, and improve
+                        overall efficiency for businesses.
                       </div>
                     </h3>
                   </div>
@@ -134,7 +137,9 @@ export default function Home() {
                     <h3 className="text-foreground">
                       <div className="font-bold">CRM & Chatbots</div>
                       <div className="font-normal text-muted-foreground text-sm leading-relaxed">
-                        We build & integrate CRM systems & chatbots that manage leads, handle conversations, & support consistent customer engagement.
+                        We build & integrate CRM systems & chatbots that manage
+                        leads, handle conversations, & support consistent
+                        customer engagement.
                       </div>
                     </h3>
                   </div>
@@ -163,7 +168,9 @@ export default function Home() {
                     <h3 className="text-foreground">
                       <div className="font-bold">High Performance Websites</div>
                       <div className="font-normal text-muted-foreground text-sm leading-relaxed">
-                        We develop fast, secure, and scalable websites focused on performance, reliability, and measurable business outcomes.
+                        We develop fast, secure, and scalable websites focused
+                        on performance, reliability, and measurable business
+                        outcomes.
                       </div>
                     </h3>
                   </div>
