@@ -13,10 +13,7 @@ export function Navbar() {
   return (
     <nav className="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-full max-w-[calc(100%-2rem)] md:w-auto px-4">
       <div className="bg-background/80 backdrop-blur-md border border-border rounded-full shadow-lg px-4 md:px-6 py-4 flex items-center justify-between gap-4 md:gap-6">
-        <Avatar
-          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-          className="cursor-pointer"
-        >
+        <Avatar>
           <AvatarImage src="/logo.png" alt="Casal Labs" />
           <AvatarFallback>CL</AvatarFallback>
         </Avatar>
